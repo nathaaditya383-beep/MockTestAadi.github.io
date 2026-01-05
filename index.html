@@ -77,16 +77,23 @@
     <h2>FULL MOCK TESTS</h2>
 
     <div class="grid">
-      <div class="box">Mock Test I</div>
-      <div class="box">Mock Test II</div>
-      <div class="box">Mock Test III</div>
-      <div class="box">Mock Test IV</div>
-      <div class="box">Mock Test V</div>
-      <div class="box">Mock Test VI</div>
-      <div class="box">Mock Test VII</div>
-      <div class="box">Mock Test VIII</div>
+
+      <!-- 🔽 REPLACE FORM LINK -->
+      <div class="box" onclick="openForm('https://forms.gle/NcCu3ercD5xF2tAT6')">Mock Test I</div>
+
+      <div class="box" onclick="openForm('https://forms.gle/wHD6eyvc39xjGweHA')">Mock Test II</div>
+      <div class="box" onclick="openForm('https://forms.gle/Wp3nAd84YreMpGK26')">Mock Test III</div>
+      <div class="box" onclick="openForm('https://forms.gle/6KthVUVcTfTc1wRPA')">Mock Test IV</div>
+      
+
     </div>
   </div>
+
+  <script>
+    function openForm(link) {
+      window.open(link, '_blank');
+    }
+  </script>
 
 </body>
 </html>
